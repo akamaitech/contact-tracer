@@ -21,7 +21,7 @@
 </div>
 </form>
 <div><button onclick="generate()"> Generate</button></div>
-
+<h1>test1</h1>
 <script type="text/javascript" src="<?=base_url("assets/js/generate.js");?>"></script>
 <br>
 
