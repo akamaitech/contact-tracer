@@ -30,7 +30,12 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::find');
+$routes->get('/Base', 'Home::base');
+
+//to link another URL 
+$routes->add('Registration','home::find');
+$routes->add('Scanner','home::ind');
+
 
 /**
  * --------------------------------------------------------------------

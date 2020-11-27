@@ -1,5 +1,5 @@
 var qrcode=new QRCode(document.getElementById('qrResult'),{
-    width:200,height:200
+    
 });
 
 // This is The Function for Name

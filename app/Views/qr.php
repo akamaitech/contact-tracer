@@ -16,6 +16,8 @@
 	<div><input type="number" placeholder="Phone Number" id="num" required ></div>
 	<div><input type="text" placeholder="Address" id="add" required ></div>
 
+	
+
 <!---Button-->
 <div id="qrResult">
 </div>
@@ -23,15 +25,8 @@
 <div><button onclick="generate()"> Generate</button></div>
 <script type="text/javascript" src="<?=base_url("assets/js/generate.js");?>"></script>
 <br>
-
-<input type="file" id="file" name="file">
-
-<!--Display the QR Code Content-->
-<p>Qr Content: <br><span id="content"></span></p>
-
-
-
-<!--To Read QR Code-->
-<script type="text/javascript" src="<?=base_url("assets/js/qrReader.js");?>"></script>
+<!--to go back base.php-->
+<a href="<?=base_url()?>/Base"><button>Back</button></a>
+</div>
 </body>
 </html>

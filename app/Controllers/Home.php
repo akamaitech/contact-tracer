@@ -4,7 +4,7 @@ class Home extends BaseController
 {
 	
 /*	public function index()
-	{
+	{q
 		return view('welcome_message');
 	} 
 
@@ -14,8 +14,13 @@ class Home extends BaseController
   }*/
   
   // controller for localhost
+public function base(){
+	return view('base');
+}
 public function find(){
 	return view('qr');
 }
-
+public function ind(){
+	return view('scanner');
+}
 }
