@@ -1,6 +1,10 @@
 var qrcode=new QRCode(document.getElementById('qrResult'),{
-    
+    width:250,
+    height:250,
+   
 });
+
+
 
 // This is The Function for Name
 function generate(){

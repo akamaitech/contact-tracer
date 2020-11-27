@@ -1,11 +1,12 @@
 <html>
   <head>
-    <title>Instascan &ndash; Demo</title>
-    <link rel="icon" type="image/png" href="<?=base_url("assets/js/instascan-master/docs/favicon.png");?>">
+    <title>Qr Scanner</title>
+    <link rel="icon" type="image/png" href="<?=base_url("assets/scan/docs/favicon.png");?>">
     
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/3.3.3/adapter.min.js"></script>
+    <script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/3.3.3/adapter.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
     <script type="text/javascript" src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    
   </head>
   <body>
     
@@ -41,9 +42,9 @@
 <script type="text/javascript" src="<?=base_url("assets/js/qrReader.js");?>"></script>
 </div>
 <!--to go back base.php-->
-<a href="<?=base_url()?>/Base"><button>Back</button></a>
+<a href="<?=base_url()?>/base"><button>Back</button></a>
 
 
-<script type="text/javascript" src="<?=base_url("assets/js/app.js");?>"></script>
+<script type="text/javascript" src="<?=base_url("assets/scan/docs/app.js");?>"></script>
 </body>
 </html>
