@@ -1,0 +1,14 @@
+.form-signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    height: 230px;
+    width: 250px;
+}
+#qrResult{
+  margin-left: 510px;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+}

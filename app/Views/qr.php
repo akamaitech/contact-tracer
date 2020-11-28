@@ -9,7 +9,6 @@
 	
 </head>
 <body>
-
 <!--form for sign in --> 
 <form class="form-signin">
 	<div><input type="text" name="name" placeholder="Name" id="qr" ></div>
