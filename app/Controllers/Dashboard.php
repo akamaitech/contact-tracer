@@ -6,4 +6,8 @@ class Dashboard extends BaseController {
     {
         return view('qr');
     } 
+
+    public function users(){
+        return view('user_view');
+    }
 }

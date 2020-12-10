@@ -31,8 +31,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/Base', 'Home::index');
-$routes->get('/Base', 'Dashboard::index');
-
+$routes->add('qrcode', 'App\Dashboard\index');
+$routes->add('users', 'App\Dashboard\users');
 //to link another URL 
 // $routes->add('Registration','home::find');
 // $routes->add('Scanner','home::ind');

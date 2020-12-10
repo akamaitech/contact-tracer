@@ -1,0 +1,8 @@
+CRITICAL - 2020-12-01 01:22:40 --> Undefined offset: 1
+#0 C:\wamp64\www\contact-tracer\system\Router\Router.php(488): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 488, Array)
+#1 C:\wamp64\www\contact-tracer\system\Router\Router.php(177): CodeIgniter\Router\Router->checkRoutes('users')
+#2 C:\wamp64\www\contact-tracer\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('users')
+#3 C:\wamp64\www\contact-tracer\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\contact-tracer\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\contact-tracer\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
