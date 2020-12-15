@@ -21,7 +21,7 @@
       <div class="card-body">
         <h5 class="card-title">Scan Me!</h5>
         <p class="card-text">Authorized Personnel Only</p>
-        <a href="#" class="btn btn-primary">Scan now</a>
+        <a href="/system/scan" class="btn btn-primary">Scan now</a>
       </div>
     </div>
   </div>

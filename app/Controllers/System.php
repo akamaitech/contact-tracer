@@ -1,7 +1,7 @@
 <?php 
 namespace App\Controllers;
 use App\Controllers\BaseController;
-use App\Models\Database_qr;
+use App\Models\BlogModel;
 class System extends BaseController{
 
     public function index()
@@ -22,12 +22,23 @@ class System extends BaseController{
         ];
     
         if($this->request->getMethod()=='post'){
-            $model=new Database_qr();
+            $model=new BlogModel();
             $model->save($_POST);
             
         }
         return view('/register/qr_reg',$data);
     
+    }
+
+ public function scan()
+    {
+        $data=[
+            'meta_title'=>'Qr Code System',
+            
+
+        ];
+        
+        return view('/main/scan_me',$data);
     }
 
 }

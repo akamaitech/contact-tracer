@@ -32,6 +32,17 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 	$routes->get('/', 'System::index');
 	$routes-> get('','qrData::');
+//<<<<<<< HEAD
+// $routes->get('/Base', 'Home::index');
+$routes->add('qrcode', 'App\Dashboard\index');
+$routes->add('users', 'App\Dashboard\users');
+//to link another URL 
+// $routes->add('Registration','home::find');
+// $routes->add('Scanner','home::ind');
+//=======
+	$routes->get('/', 'System::index');
+	$routes-> get('','qrData::');
+//>>>>>>> b0f56a832351bea0a7c8eab5737f94866e18419f
 
 
 /**

@@ -2,7 +2,7 @@
 
 use CodeIgniter\Model;
 
-class Database_qr extends Model
+class BlogModel extends Model
 {
     protected $table      = 'user';
     protected $primaryKey = 'post_id';
@@ -12,9 +12,9 @@ class Database_qr extends Model
 
     protected $allowedFields = ['p_name', 'p_address','p_number','p_mail'];
 
-    //protected $useTimestamps = false;
-    //protected $createdField  = 'created_at';
-    //protected $updatedField  = 'updated_at';
+   // protected $useTimestamps = false;
+   // protected $createdField  = 'created_at';
+   // protected $updatedField  = 'updated_at';
     //protected $deletedField  = 'deleted_at';
 
    // protected $validationRules    = [];
