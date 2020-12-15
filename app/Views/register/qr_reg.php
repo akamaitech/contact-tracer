@@ -1,8 +1,6 @@
 <?= $this->extend('main/qr_main') ?>
 <?= $this->section('data') ?>
-
-
-
+<div class="container">
 <h1>Qr Code Registration</h1>
 <div class="row">
 
@@ -36,15 +34,29 @@
         </div>    
         </div>
 
-        </form>
         <div class="col">
         <div  class="form-group">
         <button class="btn btn-outline-success btn-sm btn-block " onclick="generate()"> Generate</button>
         </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+ 
+
+        </form>
         
+     
+        
+
 </div>
 <?=$this->include('generator/qr_generator')?> 
 </div>
 </div>
+
+
+<?=$this->include('/footer/footer.php')?>
+
 <?=$this->endsection()?>

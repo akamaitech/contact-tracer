@@ -1,11 +1,41 @@
-<?= $this->extend('main/qr_main') ?>
-<?= $this->section('data') ?>
-   
-   
+<html>
+    <head>
+        <title>Contact Tracing</title>
 
-<div class="container"></div>
-      <img src="/assets/image/jj.jpg "class="img-fluid"alt="Responsive image">
-      
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "bootstrap4/css/bootstrap.min.css">
+        <script src = "jquery/jquery.min.js"></script>
+        <script src = "popper/popper.min.js"></script>
+         <script src = "bootstrap4/js/bootstrap.min.js"></script>
+    </head> 
+    
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+        
+          <a class="navbar-brand" href="/system">HOME</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/system/Qdata">Sign in <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item  ">
+                <a class="nav-link" href="">Link </a>
+              </li>
+              </ul>
+              </div>
+          </div>
+        </nav>
+        <div class="container"></div>
+      <img src="image/jj.jpg "class="img-fluid"alt="Responsive image">
+
       <div class="row">
         <div class="col-sm-6">
           <div class="card text-white bg-primary mb-3">
@@ -51,12 +81,15 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
-        <?=$this->include('/footer/footer.php')?>
+      </div>
+      
+      <div class="jumbotron jumbotron-fluid text-white bg-primary">
+        <div class="container">
+          <h1 class="display-4">For more Information</h1>
+          <p class="lead">Contact the following hotline: </p>
+          <p>World Health Organization Telephone: +41-22-7912111.</p>
+          <p>Department of Health Telephone:(632) 8651-7800 </p>
         </div>
-        </div>
-      
-      
-      
-      
-<?=$this->endsection()?>
+      </div>
+    </body>
+</html>

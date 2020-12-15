@@ -17,6 +17,21 @@
 <input type="text" id="grcode" class="form-control"/>
 </div>
 </div>
+  <div class="form-group">
+  <div class="col">
+        <div  class="form-group">
+        <button class="btn btn-outline-success btn-sm btn-block " onclick="get()"> Generate</button>
+        </div>
+        </div>
+
+        <div class="col">
+        <div  class="form-group">
+        <a href="/System" class="btn btn-outline-danger btn-sm btn-block ">Back</a>
+        </div>
+        </div>
+ 
+</div>    
+
 </div>
 </div>
 </div>
