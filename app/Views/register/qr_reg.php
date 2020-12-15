@@ -7,7 +7,7 @@
 <div class="row">
 
 <div class="col-12 col-md-8 ">
-    <form  method="post" action="/system/Qdata" id="qrReg">
+    <form  method="post" id="qrReg">
         <div class="col">
         <div class="form-group">
             <label for=""></label>
@@ -36,14 +36,12 @@
         </div>    
         </div>
 
+        </form>
         <div class="col">
         <div  class="form-group">
         <button class="btn btn-outline-success btn-sm btn-block " onclick="generate()"> Generate</button>
         </div>
         </div>
-
-        </form>
-        
         
 </div>
 <?=$this->include('generator/qr_generator')?> 
