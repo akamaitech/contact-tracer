@@ -30,6 +30,8 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+	$routes->get('/', 'System::index');
+	$routes-> get('','qrData::');
 //<<<<<<< HEAD
 // $routes->get('/Base', 'Home::index');
 $routes->add('qrcode', 'App\Dashboard\index');
