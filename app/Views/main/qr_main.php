@@ -26,7 +26,7 @@
                 <a class="nav-link" href="/system/scan">Scan</a>
               </li>
               <li class="nav-item  ">
-                <a class="nav-link" href="/system/scan">Admin</a>
+                <a class="nav-link" href="">Admin</a>
               </li>
               </ul>
               </div>
