@@ -2,7 +2,6 @@
 <?= $this->section('data') ?>
    
    
-
 <div class="container"></div>
       <img src="/assets/image/jj.jpg "class="img-fluid"alt="Responsive image">
       

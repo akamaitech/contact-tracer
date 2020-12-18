@@ -36,7 +36,8 @@
 
         <div class="col">
         <div  class="form-group">
-        <button class="btn btn-outline-success btn-sm btn-block " onclick="generate()"> Generate</button>
+            <!-- <button class="btn btn-outline-success btn-sm btn-block " onclick="generate()"> Generate</button> -->
+            <button type="submit" class="btn btn-outline-success btn-sm btn-block"> Generate</button>
         </div>
         </div>
         <br>
@@ -44,13 +45,7 @@
         <br>
         <br>
         <br>
- 
-
-        </form>
-        
-     
-        
-
+    </form>
 </div>
 <?=$this->include('generator/qr_generator')?> 
 </div>
